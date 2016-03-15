@@ -10,10 +10,23 @@
     <div class="jumbotron">
       <h1>The time is now:</h1>
     </div>
+    <div class="form-group">
+      <form id="alarm-form" class="">
+        <label for="alarm">What time would you like the alarm to go off?</label>
+        <input id = "alarmInput" type="time" name="alarm" value="">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <div class="container">
+        <h4 id="snoozeTime"></h4>
+
+      </div>
+    </div>
     <div class="container">
-      <a href="/weather.html">Click for the weather...</a>
       <h3 id="time"></h3>
-      <h3 id="space"></h3>
+      <h3 id="output"></h3>
+    </div>
+    <div id="wakeUp">
+      <a id="alarmImage" style="visibility: hidden" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></a>
     </div>
   </body>
 </html>
